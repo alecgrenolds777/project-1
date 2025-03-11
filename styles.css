@@ -1,0 +1,60 @@
+/* General styling */
+body {
+    background-color: #f5e8d8; /* Light tan background - reminiscent of a dog's fur */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ /* Header styling */
+ h1 {
+    background-color: #8b5a2b; /* Brown color - like a dog's collar */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+ }
+ 
+ 
+ h2 {
+    color: #5d4037; /* Darker brown for subheadings */
+    padding: 10px;
+    border-bottom: 2px solid #8b5a2b;
+ }
+ 
+ 
+ h3 {
+    color: #6d4c41; /* Medium brown for smaller headings */
+ }
+ 
+ 
+ /* List styling */
+ ul {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0;
+    margin: 20px;
+ }
+ 
+ 
+ ul li {
+    background: url('https://via.placeholder.com/15/8b5a2b/8b5a2b?text=+') no-repeat left center; /* Paw print bullet replacement */
+    padding-left: 25px; /* Space for the custom bullet */
+    margin: 10px 0;
+    color: #4e342e;
+ }
+ 
+ 
+ /* Optional: Ordered list styling */
+ ol {
+    padding: 20px;
+    margin: 20px;
+    color: #4e342e;
+ }
+ 
+ 
+ ol li {
+    margin: 10px 0;
+    padding-left: 10px;
+ }
+ 
